@@ -274,7 +274,7 @@ body {
 
 .our-values h2 {
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 70px;
 }
 
@@ -340,4 +340,96 @@ body {
 
 .next-btn {
     right: 8px;
+}
+
+.container head h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.commitments img {
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 24px;
+    z-index: 1;
+}
+.commitments-item1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+.commitment-item1{
+    grid-column-end:5;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    overflow: hidden;
+    position: relative;
+}
+.commitment-content1{
+    position: absolute;
+    width: 45%;
+    top: 35%;
+    left: 84px;
+    color:#ffffffE6;
+    gap:8px;
+    font-weight: 700;
+}
+.commitment-content1 p{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.commitment-content1 h3{
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+.commitment-content1 a{
+    color:#0D1216;
+    background-color:#ffffffE6;
+    padding:9px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.commitment-content1 a:hover{
+    background-color:white;
+}
+.commitments-items2{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.commitment-item2{
+    position: relative;
+}
+.commitment-content2{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    padding: 0 84px;
+    color:#ffffffE6;
+    gap:8px;
+    font-weight: 700;
+    text-align: center;
+}
+.commitment-content2 p{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.commitment-content2 h3{
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+.commitment-content2 a{
+    color:#0D1216;
+    background-color:#ffffffE6;
+    padding:9px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.commitment-content2 a:hover{
+    background-color:white;
 }
